@@ -6,8 +6,9 @@
 }
 
 @font-face {
-    font-family: 'The Seasons Italic';
-    src: url('Fontspring-DEMO-theseasons-bd.otf') format('opentype');
+    font-family: 'The Season';
+    src: url('font/Fontspring-DEMO-theseasons-reg.otf') format('opentype');
+    font-style: normal;
 }
 
 body {
@@ -43,8 +44,7 @@ header {
 
 h1 {
     font-size: 2.5rem;
-    font-family: 'The Seasons Italic', serif;
-    font-style: italic;
+    font-family: 'The Season', serif;
     color: rgb(35, 35, 34);
     margin-bottom: 0.5rem;
 }
@@ -65,6 +65,15 @@ section {
     color: white;
 }
 
+.contact {
+    display: block;
+}
+
+.contact p {
+    flex: 1;
+    text-align: center;
+}
+
 h2 {
     color: white;
     margin-bottom: 1rem;
@@ -77,7 +86,7 @@ h2 {
 }
 
 .contact a, .company-profile a {
-    color: #141413;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -174,6 +183,10 @@ footer {
 
     section {
         padding: 1rem;
+    }
+
+    .contact {
+        display: block;
     }
 
     .social-media ul {
